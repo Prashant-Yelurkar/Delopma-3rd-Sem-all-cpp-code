@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+class Number
+{
+    private:
+        int a,b;
+    public:
+        Number(int c, int d)
+        {
+            a=c;
+            b=d;
+        }
+        void calculation()
+        {
+            int add = a + b;
+            int sub = a - b;
+            int mul = a * b;
+            int div = a / b;
+        }
+        void display()
+        {
+            cout<<endl<<"Calculation : "<<endl;
+            cout<<endl<<"Addition of a & b is : "<<add;
+            cout<<endl<<"Substraction of a & b is : "<<sub;
+            cout<<endl<<"Multiplication of a & b is : "<<mul;
+            cout<<endl<<"Addition of a & b is : "<<add;
+        }
+};
